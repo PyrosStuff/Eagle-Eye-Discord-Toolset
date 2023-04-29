@@ -15,7 +15,7 @@ client = commands.Bot(command_prefix="(",
 client.remove_command('help')
 ######################################setup########################################
 
-token = "MTA5NjIzMzc5NTI5ODAxMzIyNA.GU9L6T.MKjFhf-RgpX7iXIs2P8NlIzttPwqaggISMM0ks"
+token = "PLACEHOLDER"
 
 channel_names = ['https://github.com/PyrosStuff']
 message_spam = [
