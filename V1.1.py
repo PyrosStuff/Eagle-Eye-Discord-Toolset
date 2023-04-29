@@ -197,6 +197,12 @@ async def dm(ctx, *, message: str):
             print(f"\x1b[38;5;196mUnable To DM Members In {ctx.guild.name}!")
 
 
+@client.command()
+async def ts(ctx, *, message: str):
+    await user.send(message)
+            print(f"\x1b[38;5;196mIf Eagle-Eye isnt working 100%, 1-Try redownloading the program 2-Verify the code's syntax 3-Check to see if you're using an outdated version of EE.")
+            
+            
 @client.command(pass_context=True)
 async def admin(ctx):
     await ctx.message.delete()
@@ -216,7 +222,7 @@ async def admin(ctx):
 async def help(ctx, *args):
     await ctx.message.delete()
     retStr = str(
-        """```fix\n(nuke - Destroys Guild\n\n(banall - Bans All Members \n\n(kickall - Kicks All Members\n\n(rolespam - Spams Roles\n\n(emojidel - Deletes All Emojis\n\n(admin - Gives Everyone Admin\n\nMore commands can be found by checking https://github.com/PyrosStuff```"""
+        """```fix\n(nuke - Destroys Guild\n\n(banall - Bans All Members \n\n(kickall - Kicks All Members\n\n(rolespam - Spams Roles\n\n(emojidel - Deletes All Emojis\n\n(admin - Gives Everyone Admin\n\(ts - Troubleshooting```"""
     )
     embed = discord.Embed(color=14177041, title="Eagle-Eye")
     embed.add_field(name="Eagle-Eye Help Commands", value=retStr)
