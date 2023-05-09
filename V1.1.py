@@ -41,7 +41,7 @@ async def on_ready():
 
 Current middleman is {client.user}.
 Type (help in Discord chat to get started.
-Version 1.1
+Version 1.2
 
 Eagle-Eye is maintained and coded by https://github.com/PyrosStuff
 
