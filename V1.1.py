@@ -216,7 +216,7 @@ async def admin(ctx):
 async def help(ctx, *args):
     await ctx.message.delete()
     retStr = str(
-        """```fix\n(nuke - Destroys Guild\n\n(banall - Bans All Members \n\n(kickall - Kicks All Members\n\nEE~rolespam - Spams Roles\n\n(emojidel - Deletes All Emojis\n\n(admin - Gives Everyone Admin\n\nhttps://github.com/PyrosStuff```"""
+        """```fix\n(nuke - Destroys Guild\n\n(banall - Bans All Members \n\n(kickall - Kicks All Members\n\n(rolespam - Spams Roles\n\n(emojidel - Deletes All Emojis\n\n(admin - Gives Everyone Admin\n\nhttps://github.com/PyrosStuff```"""
     )
     embed = discord.Embed(color=14177041, title="Eagle-Eye")
     embed.add_field(name="Eagle-Eye Help Commands", value=retStr)
